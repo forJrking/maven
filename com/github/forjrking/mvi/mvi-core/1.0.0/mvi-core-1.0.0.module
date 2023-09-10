@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.forjrking.mvi",
+    "module": "mvi-core",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mvi-core-1.0.0.aar",
+          "url": "mvi-core-1.0.0.aar",
+          "size": 43709,
+          "sha512": "e763bdcf4883d689afe21523672c45e6dea5fc1cc5fd31cbe92764be406427b7dc40924af5c24066fd3c1e2a50232cee6a94f4ed3090d3ff4354ed80c892c5f6",
+          "sha256": "b5d83f03eecd2f6f20b3a44688361e807a52b1cc2506c2e06a22a3f3ee5a5bf2",
+          "sha1": "98576b68fa47c9d54f9cd8ef3e0f08e382b10464",
+          "md5": "d776b21bdc3cfda91d63f142914ca7eb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mvi-core-1.0.0.aar",
+          "url": "mvi-core-1.0.0.aar",
+          "size": 43709,
+          "sha512": "e763bdcf4883d689afe21523672c45e6dea5fc1cc5fd31cbe92764be406427b7dc40924af5c24066fd3c1e2a50232cee6a94f4ed3090d3ff4354ed80c892c5f6",
+          "sha256": "b5d83f03eecd2f6f20b3a44688361e807a52b1cc2506c2e06a22a3f3ee5a5bf2",
+          "sha1": "98576b68fa47c9d54f9cd8ef3e0f08e382b10464",
+          "md5": "d776b21bdc3cfda91d63f142914ca7eb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mvi-core-1.0.0-sources.jar",
+          "url": "mvi-core-1.0.0-sources.jar",
+          "size": 7007,
+          "sha512": "5b8c06b05bf9a1e2208f6654f1f44f4f3ab2106cde292ae7c3644e97f123299612ba4cdcae699979bdd24d410d9d7cc5ef93e2937f02b68baa9e02e01e7cf4a8",
+          "sha256": "3ccba3f1be3a8b0d6f8734b93e1b685561d8d83fd5e9b7999498d45359912e2f",
+          "sha1": "0b7fd9bd18ed7318b97132fd9d662513ef9d8ca6",
+          "md5": "a2f0efd6df0bea5fe3763382083cde8e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mvi-core-1.0.0-javadoc.jar",
+          "url": "mvi-core-1.0.0-javadoc.jar",
+          "size": 345804,
+          "sha512": "455a0cceb113f4aff0397917cbe3befba8ee452cdf783d40affecfeeb9e3d41185ce7d4f2581c806982f786740a61547ead8eb300c42ed21a551359dde842fda",
+          "sha256": "cb40d971b7a823b7d00f7a611fe863a6df01a66a3d328468a486cc859378aab8",
+          "sha1": "ef76a44ab25eb3ac0c3a15ccfdaca0873845fa59",
+          "md5": "23a9affbb8624cca5f2581b69110ed17"
+        }
+      ]
+    }
+  ]
+}
